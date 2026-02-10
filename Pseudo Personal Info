@@ -1,0 +1,8 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+   string info = " Elijah Verdaguer \n 17 Street Lane 01234 \n 327-247-1234 \n Engineering";
+   cout << info;
+}
