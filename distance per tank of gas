@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int tG; 
+    tG = 20;
+    
+    int mPgT;
+    mPgT =23.5;
+    
+    int mPgH;
+    mPgH = 28.9;
+    
+    cout << "The distance traveled in town is: "
+    << mPgT*tG;
+    
+    cout << ". The distance traveled on the highway is: "
+    << mPgH*tG;
+}
+
