@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int tG; 
+    tG = 15;
+    
+    int mBr; 
+    mBr = 375;
+    
+    cout << "The amount of miles per gallon is: "
+    << mBr/tG;
+}
+
