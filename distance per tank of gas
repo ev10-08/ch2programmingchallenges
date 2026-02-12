@@ -2,19 +2,18 @@
 using namespace std;
 
 int main(){
-    int tG; 
+    int tG; //total gallons
     tG = 20;
     
-    int mPgT;
+    int mPgT; //miles per gallon in town
     mPgT =23.5;
     
-    int mPgH;
+    int mPgH; //miles per gallon on the highway
     mPgH = 28.9;
     
-    cout << "The distance traveled in town is: "
-    << mPgT*tG;
+    cout << "The distance traveled in town is: " 
+    << mPgT*tG; //miles per gallon in town multiplied by total gallons
     
     cout << ". The distance traveled on the highway is: "
-    << mPgH*tG;
+    << mPgH*tG; //miles per gallon on the highway multiplied by the total gallons
 }
-
