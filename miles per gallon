@@ -2,13 +2,12 @@
 using namespace std;
 
 int main(){
-    int tG; 
+    int tG; //total gallons
     tG = 15;
     
-    int mBr; 
+    int mBr; //miles driven before refueling is nessecary
     mBr = 375;
     
     cout << "The amount of miles per gallon is: "
-    << mBr/tG;
+    << mBr/tG; //miles driven before refueling divided by the total amount of gallons to calculate the amount of miles per gallon
 }
-
